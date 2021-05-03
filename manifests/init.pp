@@ -77,6 +77,7 @@
 class rbenv (
   $repo_path      = 'https://github.com/rbenv/rbenv.git',
   $install_dir    = '/usr/local/rbenv',
+  $tmpdir         = '/tmp',
   $owner          = 'root',
   $group          = $rbenv::params::group,
   $latest         = false,
